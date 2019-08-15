@@ -11,8 +11,8 @@ env:
     - MOLECULE_DISTRO: ubuntu1604
     - MOLECULE_DISTRO: debian9
 
-    - MOLECULE_DISTRO: centos7
-      MOLECULE_PLAYBOOK: playbook-source.yml
+    # - MOLECULE_DISTRO: centos7
+    #   MOLECULE_PLAYBOOK: playbook-source.yml
 
 install:
   # Install test dependencies.
