@@ -51,7 +51,7 @@
     - meta: flush_handlers
 
   roles:
-    - role: chauanhtuandl.repo-remi
+    - role: chauanhtuandl.repo_remi
       when:
         - ansible_os_family == 'RedHat'
         - ansible_distribution != 'Fedora'
