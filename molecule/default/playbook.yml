@@ -51,11 +51,11 @@
     - meta: flush_handlers
 
   roles:
-    - role: geerlingguy.repo-remi
+    - role: chauanhtuandl.repo-remi
       when:
         - ansible_os_family == 'RedHat'
         - ansible_distribution != 'Fedora'
-    - role: geerlingguy.php
+    - role: chauanhtuandl.php
 
   post_tasks:
     - name: Confirm PHP configuration is correct.
